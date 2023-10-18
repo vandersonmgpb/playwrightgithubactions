@@ -16,7 +16,7 @@ test('basic test', async () => {
     const html = await page.innerHTML('.feed-toggle')
 
     // Screenshot
-    await page.screenshot({path: 'SignIng.png', fullPage: true})
+    await page.screenshot({path: 'SignIn.png', fullPage: true})
 
     await browser.close()
 })
